@@ -49,8 +49,7 @@ header {
 }
 
 .picture-intro {
-    position: absolute;
-    justify-content: space-between;
+    position: relative;
 }
 
 .pic {
@@ -64,6 +63,7 @@ header {
 .pic hr {
     border: 1px solid whitesmoke;
     margin-top: 27px;
+    width: 690px;
 }
 
 .intro1 {
@@ -71,7 +71,7 @@ header {
     width: 467px;
     height: 393px;
     left: 713px;
-    top: 32px;
+    top: -8px;
     text-align: justify;
     line-height: 30px;
 }
@@ -86,12 +86,8 @@ header {
     line-height: 50px;
 }
 
-.intro1 p {
-    justify-content: space-between;
-}
-
 .intro2 {
-    position: absolute;
+    position: relative;
     margin-top: 20px;
     line-height: 30px;
 }
@@ -110,4 +106,178 @@ header {
 
 .line4 {
     padding-left: 92px;
+}
+
+.img-total img {
+    width: 145px;
+    height: 180px;
+}
+
+.img-total a:hover{
+    box-shadow: 0px 0px 8px rgb(75, 75, 75);
+    /* background: ; */
+    
+}
+
+.img-total1 {
+    display: flex;
+    margin-top: 74px;
+    text-align: center;
+}
+
+.img-total1 .img1 {
+    padding-left: 108px;
+}
+
+.img-total1 .img2 {
+    padding-left: 60px;
+}
+
+.img-total1 .img3 {
+    padding-left: 60px;
+}
+
+.img-total1 .img4 {
+    padding-left: 60px;
+}
+
+.img-total1 .img5 {
+    padding-left: 60px;
+}
+
+.img-total2 {
+    display: flex;
+    margin-top: 47px;
+    text-align: center;
+}
+
+.img-total2 .img6 {
+    padding-left: 108px;
+}
+
+.img-total2 .img7 {
+    padding-left: 60px;
+}
+
+.img-total2 .img8 {
+    padding-left: 60px;
+}
+
+.img-total2 .img9 {
+    padding-left: 60px;
+}
+
+.img-total2 .img10 {
+    padding-left: 60px;
+}
+
+.img-total3 {
+    display: flex;
+    margin-top: 47px;
+    text-align: center;
+}
+
+.img-total3 .img11 {
+    padding-left: 313px;
+}
+
+.img-total3 .img12 {
+    padding-left: 60px;
+}
+
+.img-total3 .img13 {
+    padding-left: 60px;
+}
+
+
+.album-title .discography1 {
+    position: relative;
+    display: flex;
+    padding-top: 93px;
+    padding-left: 470px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.album-title img {
+    width: 245px;
+    height: 245px;
+}
+
+.album-title .title1 {
+    display: flex;
+    padding-top: 77px;
+}
+
+.album-title .album1 {
+    padding-left: 75px;
+}
+
+.album-title .album2 {
+    padding-left: 17px;
+}
+
+.album-title .album3 {
+    padding-left: 17px;
+}
+
+.album-title .album4 {
+    padding-left: 17px;
+}
+
+.album-title strong {
+    width: 245px;
+}
+
+.album-title p {
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.album-title time {
+    font-size: 15px;
+}
+
+.album-title .title2 {
+    display: flex;
+    padding-top: 15px;
+}
+
+.album-title .album5 {
+    padding-left: 75px;
+}
+
+.album-title .album6 {
+    padding-left: 17px;
+}
+
+.album-title .album7 {
+    padding-left: 17px;
+}
+
+.album-title .album8 {
+    padding-left: 17px;
+}
+
+.VIDEO .video-strong {
+    position: relative;
+    display: flex;
+    padding-top: 93px;
+    padding-left: 470px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.video01 {
+    display: flex;
+    padding-top: 165px;
+}
+
+.video01 .video2 {
+    padding-left: 20px;
+}
+
+
+.video01 .video3 {
+    padding-left: 20px;
 }

@@ -25,14 +25,14 @@ header {
 
 .name {
     position: absolute;
-    top: 17px;
-    font-size: 30px;
+    top: 10px;
+}
+.name-mobile-btn {
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
-.name-mobile-btn .image {
-    width: 1920px;
-}
-
+/* mobile-btn */
 .mobile-btn {
     position: absolute;
     left: 1158px; top: 20px;
@@ -55,9 +55,34 @@ header {
     margin-top: 20px;
 }
 
-.picture-intro {
-    position: relative;
+.information {
+    width: 600px;
+    padding-top: 880px;
+    /* top: 100px; */
 }
+
+.information > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information > span {
+    display: flex;
+}
+
+/* .information img {
+    width: 30px;
+    height: 25px;
+} */
+
+.information li:first-child > img {
+
+}
+
+/* ========= main ========= */
+/* .picture-intro {
+    position: relative;
+} */
 
 .pic {
     margin-top: 42px;
@@ -196,7 +221,6 @@ header {
 
 
 .album-title .discography {
-    position: relative;
     display: flex;
     padding-top: 93px;
     padding-left: 91px;
@@ -272,7 +296,7 @@ header {
 
 .VIDEO .video-text {
     display: flex;
-    padding-top: 160px;
+    padding-top: 100px;
     padding-left: 537px;
     font-size: 36px;
 }
@@ -283,13 +307,26 @@ header {
     padding-top: 47px;
 }
 
-.video01 p  {
+.video01 div > p  {
     position: absolute;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-left: 20px;
+    padding-top: 77px;
+    text-align: center;
+    font-size: 16px;
     opacity: 0;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.video01 .mv1 {
+    padding-left: 60px;
+}
+
+.video01 .mv2 {
+    padding-left: 40px;
+}
+
+.video01 .mv3 {
+    padding-left: 20px;
 }
 
 .video01 p:hover {
@@ -308,6 +345,33 @@ header {
     padding-top: 13px;
 }
 
+.video02 div > p {
+    position: absolute;
+    padding-top: 77px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.video02 .mv4 {
+    padding-left: 5px;
+}
+
+.video02 .mv5 {
+    padding-left: 5px;
+}
+
+.video02 .mv6 {
+    padding-left: 50px;
+}
+
+.video02 p:hover {
+    color: white;
+    opacity: 1;
+}
+
 .number {
     display: flex;
     width: 284px;
@@ -323,4 +387,28 @@ header {
 
 .number a:hover {
     font-weight: bold;
+}
+
+
+/* ======= footer ======= */
+.logo {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.logo img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50px);
+    width: 108px;
+    height: 48px;
+    margin-top: 20px;
+}
+
+.logo p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #a9a9a9;
+    font-size: 13px;
+    text-align: center;
 }

@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* ========= header ========= */
+header {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background-image: url(../img/SVT.jpg);
+}
+
+/* name */
+ul.gnb {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    top: 10px;
+}
+
+li {
+    margin-right: 10px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.gnb li > a {
+    font-weight: 600;
+}
+
+/* information */
+.information {
+    width: 600px;
+    margin-top: 840px;
+}
+
+.information > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information > span {
+    display: flex;
+}
+
+.information img {
+    width: 30px;
+    height: 25px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+/* ========= main ========= */
+/* pic */
+.pic {
+    margin-top: 42px;
+}
+
+.pic > img {
+    width: 690px; height: 430px;
+}
+
+.pic hr {
+    border: 1px solid whitesmoke;
+    margin-top: 27px;
+    width: 690px;
+}
+
+/* intro1 */
+.intro1 {
+    position: absolute;
+    width: 467px;
+    height: 393px;
+    left: 713px;
+    top: -8px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.intro1 h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.intro1 strong {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/* intro2 */
+.intro2 {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.intro2 .line1 {
+    padding-left: 55px;
+}
+
+.intro2 .line2 {
+    padding-left: 37px;
+}
+
+.intro2 .line3 {
+    padding-left: 53px;
+}
+
+.intro2 .line4 {
+    padding-left: 92px;
+}
+
+/*  modal */
+
+#profile > p {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.thumbnail {
+    margin: 6px 56px 30px;
+}
+
+.thumbnail:first-child,
+.thumbnail:nth-child(6) {
+    margin-left: 0;
+}
+
+.thumbnail:nth-child(5),
+.thumbnail:nth-child(10) {
+    margin-right: 0;
+}
+
+.thumbnail:nth-child(11),
+.thumbnail:nth-child(12),
+.thumbnail:last-child {
+    margin-bottom: 0;
+}
+
+.thumbnail > img {
+    width: 145px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.thumbnail > pre {
+    display: none;
+}
+
+pre {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: -120px;
+}
+
+#modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.8);
+    
+    
+    z-index: 999;
+    transition: all 0.5s;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+#modal.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    padding: 100px;
+    border:1px solid gray;
+    background-color: white;
+}
+
+.close {
+    right: 605px;
+    position: absolute;
+    top: 315px;
+    background: black;
+    cursor: pointer;
+}
+
+/* slide */
+
+.album-title {
+    margin-top: 150px;
+}
+
+.album-title p:first-child {
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+
+    /* display: block; */
+}
+
+.swiper-slide {
+	align-items:center;
+	justify-content:center;
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+	max-width:100%;
+}
+
+.swiper-pagination {
+    margin-bottom: 0;
+}
+
+/* VIDEO */
+.VIDEO h3{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 150px;
+}
+
+.VIDEO .video01,
+.VIDEO .video02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video01 > div,
+.video02 > div {
+    width: 32.20338983050847%;
+}
+
+.video01 div {
+    margin-top: 50px;
+}
+
+.video01 .mv h4
+.video02 .mv h4
+{
+    height: 30px;
+}
+
+.video01 .mv > p,
+.video02 .mv > p  {
+    padding-top: 10px;
+}
+
+.video02 .mv > .day {
+    padding-top: 30px;
+}
+
+.video01 .mv > p,
+.video02 .mv > p {
+    font-size: 12px;
+}
+
+.video02 {
+    padding-top: 10px;
+}
+
+/* number */
+
+.number a {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.number a:hover {
+    font-weight: bold;
+}
+
+/* ======= footer ======= */
+footer {
+    background-color: black;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.logo p {
+    color: #a9a9a9;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top a {
+    color: white;
+    cursor: pointer;
+}

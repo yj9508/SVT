@@ -29,7 +29,7 @@ ul.gnb {
 }
 
 li {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 li:last-child {
@@ -38,6 +38,12 @@ li:last-child {
 
 .gnb li > a {
     font-weight: 600;
+    font-size: 18px;
+    color: darkgray;
+}
+
+.gnb li > a:hover {
+	color: blue;
 }
 
 /* information */
@@ -52,14 +58,13 @@ li:last-child {
 }
 
 .information > span {
-    display: flex;
+    margin-left: 10px;
 }
 
 .information img {
     width: 30px;
     height: 25px;
     margin-bottom: -5px;
-    margin-right: 10px;
 }
 
 /* ========= main ========= */
@@ -166,6 +171,10 @@ li:last-child {
     cursor: pointer;
 }
 
+.thumbnail > img:hover {
+    box-shadow: 0px 0px 8px rgb(75, 75, 75);
+}
+
 .thumbnail > pre {
     display: none;
 }
@@ -242,6 +251,10 @@ pre {
 .swiper-slide img {
 	box-shadow:0 0 5px #555;
 	max-width:100%;
+}
+
+.swiper-slide img:hover {
+    box-shadow: 0px 0px 8px rgb(75, 75, 75);
 }
 
 .swiper-pagination {
